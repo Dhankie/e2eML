@@ -1,2 +1,520 @@
 [2024-08-30 13:46:35,095: INFO: main: Please work!!]
 [2024-08-30 13:47:47,468: INFO: main: Please work!!]
+[2024-08-31 12:04:11,939: INFO: main: Please work!!]
+[2024-09-01 18:29:52,837: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-09-01 18:29:52,849: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-09-01 18:29:52,858: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-09-01 18:29:52,861: INFO: common: created directory at: artifacts]
+[2024-09-01 18:29:52,862: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-09-01 18:29:53,691: INFO: 1268487314: artifacts/data_ingestion/data.zip download! with following info: 
+Server: GitHub.com
+Date: Sun, 01 Sep 2024 15:29:55 GMT
+Content-Type: text/html; charset=utf-8
+Vary: X-PJAX, X-PJAX-Container, Turbo-Visit, Turbo-Frame, Accept-Encoding, Accept, X-Requested-With
+ETag: W/"ee506b343adc37ef44d6c88ded5c5f91"
+Cache-Control: max-age=0, private, must-revalidate
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+X-Frame-Options: deny
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 0
+Referrer-Policy: no-referrer-when-downgrade
+Content-Security-Policy: default-src 'none'; base-uri 'self'; child-src github.com/assets-cdn/worker/ github.com/webpack/ github.com/assets/ gist.github.com/assets-cdn/worker/; connect-src 'self' uploads.github.com www.githubstatus.com collector.github.com raw.githubusercontent.com api.github.com github-cloud.s3.amazonaws.com github-production-repository-file-5c1aeb.s3.amazonaws.com github-production-upload-manifest-file-7fdce7.s3.amazonaws.com github-production-user-asset-6210df.s3.amazonaws.com *.rel.tunnels.api.visualstudio.com wss://*.rel.tunnels.api.visualstudio.com api.githubcopilot.com objects-origin.githubusercontent.com copilot-proxy.githubusercontent.com/v1/engines/github-completion/completions proxy.enterprise.githubcopilot.com/v1/engines/github-completion/completions *.actions.githubusercontent.com wss://*.actions.githubusercontent.com productionresultssa0.blob.core.windows.net/ productionresultssa1.blob.core.windows.net/ productionresultssa2.blob.core.windows.net/ productionresultssa3.blob.core.windows.net/ productionresultssa4.blob.core.windows.net/ productionresultssa5.blob.core.windows.net/ productionresultssa6.blob.core.windows.net/ productionresultssa7.blob.core.windows.net/ productionresultssa8.blob.core.windows.net/ productionresultssa9.blob.core.windows.net/ productionresultssa10.blob.core.windows.net/ productionresultssa11.blob.core.windows.net/ productionresultssa12.blob.core.windows.net/ productionresultssa13.blob.core.windows.net/ productionresultssa14.blob.core.windows.net/ productionresultssa15.blob.core.windows.net/ productionresultssa16.blob.core.windows.net/ productionresultssa17.blob.core.windows.net/ productionresultssa18.blob.core.windows.net/ productionresultssa19.blob.core.windows.net/ github-production-repository-image-32fea6.s3.amazonaws.com github-production-release-asset-2e65be.s3.amazonaws.com insights.github.com wss://alive.github.com; font-src github.githubassets.com; form-action 'self' github.com gist.github.com copilot-workspace.githubnext.com objects-origin.githubusercontent.com; frame-ancestors 'none'; frame-src viewscreen.githubusercontent.com notebooks.githubusercontent.com; img-src 'self' data: blob: github.githubassets.com media.githubusercontent.com camo.githubusercontent.com identicons.github.com avatars.githubusercontent.com github-cloud.s3.amazonaws.com objects.githubusercontent.com secured-user-images.githubusercontent.com/ user-images.githubusercontent.com/ private-user-images.githubusercontent.com opengraph.githubassets.com github-production-user-asset-6210df.s3.amazonaws.com customer-stories-feed.github.com spotlights-feed.github.com objects-origin.githubusercontent.com *.githubusercontent.com; manifest-src 'self'; media-src github.com user-images.githubusercontent.com/ secured-user-images.githubusercontent.com/ private-user-images.githubusercontent.com github-production-user-asset-6210df.s3.amazonaws.com gist.github.com; script-src github.githubassets.com; style-src 'unsafe-inline' github.githubassets.com; upgrade-insecure-requests; worker-src github.com/assets-cdn/worker/ github.com/webpack/ github.com/assets/ gist.github.com/assets-cdn/worker/
+Set-Cookie: _gh_sess=ZiZwICXqfF%2Fq9U%2FAGZgdcASQDfbHdz0K0imUyJT4xANjgKRqM4kCAjZHRlt9xUGvKn2kDeyuuvJ9qAYWvkMpV1k%2BrdCPNBVrrAwyqnVPVphMwKhQuEbcrG4%2B1xj4eLLjGGsxEh9B6gA8%2F%2BTybL%2BWwjq7S7VN%2FmnGQs6LUCEYolKwLc1T%2FYTtjpMfsg93XCYahQs3b9K3L2vjZyGc1OTVwHukBgMIIAfG7%2B9Hp%2FT0lhvL%2Br4S0VrW6ah1gkYgoogoghO7Mg%2BwovPylVrySXcpSA%3D%3D--R9LqM1MCZx8qjwUW--ZNPZXT7%2B2BkzQSaVQ3d95Q%3D%3D; Path=/; HttpOnly; Secure; SameSite=Lax
+Set-Cookie: _octo=GH1.1.1496186394.1725204594; Path=/; Domain=github.com; Expires=Mon, 01 Sep 2025 15:29:54 GMT; Secure; SameSite=Lax
+Set-Cookie: logged_in=no; Path=/; Domain=github.com; Expires=Mon, 01 Sep 2025 15:29:54 GMT; HttpOnly; Secure; SameSite=Lax
+Accept-Ranges: bytes
+Transfer-Encoding: chunked
+X-GitHub-Request-Id: 4F01:1B46F5:AEBCD11:B12070B:66D48872
+connection: close
+
+]
+[2024-09-01 18:32:32,653: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-09-01 18:32:32,655: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-09-01 18:32:32,658: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-09-01 18:32:32,659: INFO: common: created directory at: artifacts]
+[2024-09-01 18:32:32,660: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-09-01 18:32:32,661: INFO: 1268487314: File already exists of size: ~ 165 KB]
+[2024-09-01 18:33:23,108: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-09-01 18:33:23,111: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-09-01 18:33:23,113: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-09-01 18:33:23,115: INFO: common: created directory at: artifacts]
+[2024-09-01 18:33:23,117: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-09-01 18:33:23,118: INFO: 1268487314: File already exists of size: ~ 165 KB]
+[2024-09-01 18:38:27,387: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-09-01 18:38:27,389: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-09-01 18:38:27,392: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-09-01 18:38:27,394: INFO: common: created directory at: artifacts]
+[2024-09-01 18:38:27,395: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-09-01 18:38:27,396: INFO: 1268487314: File already exists of size: ~ 165 KB]
+[2024-09-01 18:43:24,348: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-09-01 18:43:24,350: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-09-01 18:43:24,352: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-09-01 18:43:24,353: INFO: common: created directory at: artifacts]
+[2024-09-01 18:43:24,354: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-09-01 18:43:24,355: INFO: 1268487314: File already exists of size: ~ 165 KB]
+[2024-09-01 18:43:25,774: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-09-01 18:43:25,776: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-09-01 18:43:25,777: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-09-01 18:43:25,780: INFO: common: created directory at: artifacts]
+[2024-09-01 18:43:25,781: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-09-01 18:43:25,782: INFO: 1268487314: File already exists of size: ~ 165 KB]
+[2024-09-01 18:44:05,899: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-09-01 18:44:05,901: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-09-01 18:44:05,904: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-09-01 18:44:05,906: INFO: common: created directory at: artifacts]
+[2024-09-01 18:44:05,907: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-09-01 18:44:05,908: INFO: 1268487314: File already exists of size: ~ 165 KB]
+[2024-09-01 18:45:44,974: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-09-01 18:45:44,976: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-09-01 18:45:44,979: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-09-01 18:45:44,980: INFO: common: created directory at: artifacts]
+[2024-09-01 18:45:44,982: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-09-01 18:45:44,983: INFO: 1268487314: File already exists of size: ~ 165 KB]
+[2024-09-01 18:48:34,473: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-09-01 18:48:34,475: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-09-01 18:48:34,477: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-09-01 18:48:34,480: INFO: common: created directory at: artifacts]
+[2024-09-01 18:48:34,482: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-09-01 18:48:34,483: INFO: 1268487314: File already exists of size: ~ 165 KB]
+[2024-09-01 18:51:04,280: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-09-01 18:51:04,282: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-09-01 18:51:04,285: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-09-01 18:51:04,287: INFO: common: created directory at: artifacts]
+[2024-09-01 18:51:04,289: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-09-01 18:51:04,290: INFO: 1268487314: File already exists of size: ~ 165 KB]
+[2024-09-01 18:51:41,191: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-09-01 18:51:41,193: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-09-01 18:51:41,194: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-09-01 18:51:41,196: INFO: common: created directory at: artifacts]
+[2024-09-01 18:51:41,197: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-09-01 18:51:41,197: INFO: 1268487314: File already exists of size: ~ 165 KB]
+[2024-09-01 18:52:55,479: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-09-01 18:52:55,481: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-09-01 18:52:55,483: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-09-01 18:52:55,484: INFO: common: created directory at: artifacts]
+[2024-09-01 18:52:55,486: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-09-01 18:52:55,487: INFO: 1268487314: File already exists of size: ~ 165 KB]
+[2024-09-01 18:53:46,268: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-09-01 18:53:46,270: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-09-01 18:53:46,273: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-09-01 18:53:46,276: INFO: common: created directory at: artifacts]
+[2024-09-01 18:53:46,276: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-09-01 18:53:46,279: INFO: 1268487314: File already exists of size: ~ 165 KB]
+[2024-09-01 18:57:58,509: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-09-01 18:57:58,511: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-09-01 18:57:58,514: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-09-01 18:57:58,516: INFO: common: created directory at: artifacts]
+[2024-09-01 18:57:58,516: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-09-01 18:57:58,517: INFO: 1268487314: File already exists of size: ~ 165 KB]
+[2024-09-01 18:58:00,192: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-09-01 18:58:00,194: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-09-01 18:58:00,196: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-09-01 18:58:00,197: INFO: common: created directory at: artifacts]
+[2024-09-01 18:58:00,198: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-09-01 18:58:00,199: INFO: 1268487314: File already exists of size: ~ 165 KB]
+[2024-09-01 18:59:55,324: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-09-01 18:59:55,326: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-09-01 18:59:55,328: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-09-01 18:59:55,329: INFO: common: created directory at: artifacts]
+[2024-09-01 18:59:55,330: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-09-01 18:59:55,331: INFO: 1268487314: File already exists of size: ~ 165 KB]
+[2024-09-01 19:01:14,080: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-09-01 19:01:14,082: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-09-01 19:01:14,085: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-09-01 19:01:14,087: INFO: common: created directory at: artifacts]
+[2024-09-01 19:01:14,089: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-09-01 19:01:14,565: INFO: 1268487314: artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 21304
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "2c723a535a98d14260d6eb580a0a75863795e10815ecdcf9effcfcb33b2f099e"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 3408:1DC138:171CD90:182BA31:66D48FCB
+Accept-Ranges: bytes
+Date: Sun, 01 Sep 2024 16:01:16 GMT
+Via: 1.1 varnish
+X-Served-By: cache-hel1410023-HEL
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1725206476.946347,VS0,VE159
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: d545e2d94a2df235ad467715ddad6ed746e4450f
+Expires: Sun, 01 Sep 2024 16:06:16 GMT
+Source-Age: 0
+
+]
+[2024-09-02 15:29:06,878: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-09-02 15:29:06,888: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-09-02 15:29:06,895: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-09-02 15:29:06,909: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-09-02 15:29:06,912: INFO: common: created directory at: artifacts]
+[2024-09-02 15:29:06,913: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-09-02 15:29:07,917: INFO: data_ingestion: artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 21304
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "2c723a535a98d14260d6eb580a0a75863795e10815ecdcf9effcfcb33b2f099e"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: CF34:15B77F:2058F32:21CDF86:66D5AF94
+Accept-Ranges: bytes
+Date: Mon, 02 Sep 2024 12:29:08 GMT
+Via: 1.1 varnish
+X-Served-By: cache-hel1410024-HEL
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1725280149.658332,VS0,VE337
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: a60bf3ef7b3030f4711d7099a1a851bbea1c3253
+Expires: Mon, 02 Sep 2024 12:34:08 GMT
+Source-Age: 0
+
+]
+[2024-09-02 15:29:07,941: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-09-02 15:32:01,465: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-09-02 15:32:01,467: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-09-02 15:32:01,468: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-09-02 15:32:01,469: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-09-02 15:32:01,469: INFO: common: created directory at: artifacts]
+[2024-09-02 15:32:01,470: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-09-02 15:32:01,470: INFO: data_ingestion: File already exists of size: ~ 21 KB]
+[2024-09-02 15:32:01,473: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-09-02 15:32:01,473: INFO: main: >>>>>> stage Data Validation stage started <<<<<<]
+[2024-09-02 15:32:01,475: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-09-02 15:32:01,476: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-09-02 15:32:01,477: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-09-02 15:32:01,478: INFO: common: created directory at: artifacts]
+[2024-09-02 15:32:01,479: INFO: common: created directory at: artifacts/data_validation]
+[2024-09-02 15:32:01,481: ERROR: main: [Errno 2] No such file or directory: 'artifacts/data_ingestion/winequality-red.csv']
+Traceback (most recent call last):
+  File "c:\Users\jn_ay\Desktop\Archana\e2eML\code\main.py", line 26, in <module>
+    data_ingestion.main()
+  File "c:\Users\jn_ay\Desktop\Archana\e2eML\code\src\mlProject\pipeline\stage_02_data_validation.py", line 16, in main
+    data_validation.validate_all_columns()
+  File "c:\users\jn_ay\desktop\archana\e2eml\code\src\mlProject\components\data_validation.py", line 36, in validate_all_columns
+    raise e
+  File "c:\users\jn_ay\desktop\archana\e2eml\code\src\mlProject\components\data_validation.py", line 17, in validate_all_columns
+    data = pd.read_csv(self.config.unzip_data_dir)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jn_ay\anaconda3\envs\mlproj\Lib\site-packages\pandas\io\parsers\readers.py", line 1026, in read_csv
+    return _read(filepath_or_buffer, kwds)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jn_ay\anaconda3\envs\mlproj\Lib\site-packages\pandas\io\parsers\readers.py", line 620, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jn_ay\anaconda3\envs\mlproj\Lib\site-packages\pandas\io\parsers\readers.py", line 1620, in __init__
+    self._engine = self._make_engine(f, self.engine)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jn_ay\anaconda3\envs\mlproj\Lib\site-packages\pandas\io\parsers\readers.py", line 1880, in _make_engine
+    self.handles = get_handle(
+                   ^^^^^^^^^^^
+  File "C:\Users\jn_ay\anaconda3\envs\mlproj\Lib\site-packages\pandas\io\common.py", line 873, in get_handle
+    handle = open(
+             ^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'artifacts/data_ingestion/winequality-red.csv'
+[2024-09-02 15:32:18,593: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-09-02 15:32:18,595: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-09-02 15:32:18,596: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-09-02 15:32:18,597: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-09-02 15:32:18,598: INFO: common: created directory at: artifacts]
+[2024-09-02 15:32:18,598: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-09-02 15:32:19,100: INFO: data_ingestion: artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 21304
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "2c723a535a98d14260d6eb580a0a75863795e10815ecdcf9effcfcb33b2f099e"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: CF34:15B77F:2058F32:21CDF86:66D5AF94
+Accept-Ranges: bytes
+Date: Mon, 02 Sep 2024 12:32:20 GMT
+Via: 1.1 varnish
+X-Served-By: cache-hel1410031-HEL
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1725280340.186729,VS0,VE1
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 1689f8c78414ed2037b97cd953151e9b71f3aa46
+Expires: Mon, 02 Sep 2024 12:37:20 GMT
+Source-Age: 191
+
+]
+[2024-09-02 15:32:19,113: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-09-02 15:32:19,114: INFO: main: >>>>>> stage Data Validation stage started <<<<<<]
+[2024-09-02 15:32:19,116: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-09-02 15:32:19,117: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-09-02 15:32:19,118: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-09-02 15:32:19,119: INFO: common: created directory at: artifacts]
+[2024-09-02 15:32:19,120: INFO: common: created directory at: artifacts/data_validation]
+[2024-09-02 15:32:19,122: ERROR: main: [Errno 2] No such file or directory: 'artifacts/data_ingestion/winequality-red.csv']
+Traceback (most recent call last):
+  File "c:\Users\jn_ay\Desktop\Archana\e2eML\code\main.py", line 26, in <module>
+    data_ingestion.main()
+  File "c:\Users\jn_ay\Desktop\Archana\e2eML\code\src\mlProject\pipeline\stage_02_data_validation.py", line 16, in main
+    data_validation.validate_all_columns()
+  File "c:\users\jn_ay\desktop\archana\e2eml\code\src\mlProject\components\data_validation.py", line 36, in validate_all_columns
+    raise e
+  File "c:\users\jn_ay\desktop\archana\e2eml\code\src\mlProject\components\data_validation.py", line 17, in validate_all_columns
+    data = pd.read_csv(self.config.unzip_data_dir)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jn_ay\anaconda3\envs\mlproj\Lib\site-packages\pandas\io\parsers\readers.py", line 1026, in read_csv
+    return _read(filepath_or_buffer, kwds)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jn_ay\anaconda3\envs\mlproj\Lib\site-packages\pandas\io\parsers\readers.py", line 620, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jn_ay\anaconda3\envs\mlproj\Lib\site-packages\pandas\io\parsers\readers.py", line 1620, in __init__
+    self._engine = self._make_engine(f, self.engine)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jn_ay\anaconda3\envs\mlproj\Lib\site-packages\pandas\io\parsers\readers.py", line 1880, in _make_engine
+    self.handles = get_handle(
+                   ^^^^^^^^^^^
+  File "C:\Users\jn_ay\anaconda3\envs\mlproj\Lib\site-packages\pandas\io\common.py", line 873, in get_handle
+    handle = open(
+             ^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'artifacts/data_ingestion/winequality-red.csv'
+[2024-09-02 15:38:50,438: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-09-02 15:38:50,441: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-09-02 15:38:50,442: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-09-02 15:38:50,444: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-09-02 15:38:50,444: INFO: common: created directory at: artifacts]
+[2024-09-02 15:38:50,445: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-09-02 15:38:51,171: INFO: data_ingestion: artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 21304
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "2c723a535a98d14260d6eb580a0a75863795e10815ecdcf9effcfcb33b2f099e"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: CF34:15B77F:2058F32:21CDF86:66D5AF94
+Accept-Ranges: bytes
+Date: Mon, 02 Sep 2024 12:38:52 GMT
+Via: 1.1 varnish
+X-Served-By: cache-hel1410020-HEL
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1725280732.066887,VS0,VE195
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 5b211e0f897be730adacaf4ba2763da77483e3e3
+Expires: Mon, 02 Sep 2024 12:43:52 GMT
+Source-Age: 0
+
+]
+[2024-09-02 15:38:51,182: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-09-02 15:38:51,182: INFO: main: >>>>>> stage Data Validation stage started <<<<<<]
+[2024-09-02 15:38:51,184: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-09-02 15:38:51,185: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-09-02 15:38:51,187: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-09-02 15:38:51,187: INFO: common: created directory at: artifacts]
+[2024-09-02 15:38:51,188: INFO: common: created directory at: artifacts/data_validation]
+[2024-09-02 15:38:51,205: INFO: main: >>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x]
+[2024-09-02 15:46:45,353: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-09-02 15:46:45,355: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-09-02 15:46:45,356: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-09-02 15:46:45,362: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-09-02 15:46:45,363: INFO: common: created directory at: artifacts]
+[2024-09-02 15:46:45,364: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-09-02 15:46:46,029: INFO: data_ingestion: artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 21304
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "2c723a535a98d14260d6eb580a0a75863795e10815ecdcf9effcfcb33b2f099e"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: CF34:15B77F:2058F32:21CDF86:66D5AF94
+Accept-Ranges: bytes
+Date: Mon, 02 Sep 2024 12:46:47 GMT
+Via: 1.1 varnish
+X-Served-By: cache-hel1410033-HEL
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1725281207.957623,VS0,VE171
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: cc1a4acc7887d4e9418aeea25291f17a95e31eb4
+Expires: Mon, 02 Sep 2024 12:51:47 GMT
+Source-Age: 0
+
+]
+[2024-09-02 15:46:46,042: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-09-02 15:46:46,042: INFO: main: >>>>>> stage Data Validation stage started <<<<<<]
+[2024-09-02 15:46:46,044: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-09-02 15:46:46,045: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-09-02 15:46:46,047: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-09-02 15:46:46,047: INFO: common: created directory at: artifacts]
+[2024-09-02 15:46:46,048: INFO: common: created directory at: artifacts/data_validation]
+[2024-09-02 15:46:46,063: INFO: main: >>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x]
+[2024-09-02 15:56:01,018: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-09-02 15:56:01,020: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-09-02 15:56:01,021: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-09-02 15:56:01,022: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-09-02 15:56:01,024: INFO: common: created directory at: artifacts]
+[2024-09-02 15:56:01,024: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-09-02 15:56:01,024: INFO: data_ingestion: File already exists of size: ~ 21 KB]
+[2024-09-02 15:56:01,026: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-09-02 15:56:01,026: INFO: main: >>>>>> stage Data Validation stage started <<<<<<]
+[2024-09-02 15:56:01,028: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-09-02 15:56:01,029: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-09-02 15:56:01,030: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-09-02 15:56:01,031: INFO: common: created directory at: artifacts]
+[2024-09-02 15:56:01,031: INFO: common: created directory at: artifacts/data_validation]
+[2024-09-02 15:56:01,057: INFO: main: >>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x]
+[2024-09-02 16:00:46,682: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-09-02 16:00:46,684: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-09-02 16:00:46,686: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-09-02 16:00:46,687: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-09-02 16:00:46,688: INFO: common: created directory at: artifacts]
+[2024-09-02 16:00:46,688: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-09-02 16:00:46,689: INFO: data_ingestion: File already exists of size: ~ 21 KB]
+[2024-09-02 16:00:46,690: ERROR: main: [Errno 13] Permission denied: 'artifacts\\data_ingestion\\WineQT.csv']
+Traceback (most recent call last):
+  File "c:\Users\jn_ay\Desktop\Archana\e2eML\code\main.py", line 14, in <module>
+    data_ingestion.main()
+  File "c:\Users\jn_ay\Desktop\Archana\e2eML\code\src\mlProject\pipeline\stage_01_data_ingestion.py", line 18, in main
+    data_ingestion.extract_zip_file()
+  File "c:\users\jn_ay\desktop\archana\e2eml\code\src\mlProject\components\data_ingestion.py", line 38, in extract_zip_file
+    zip_ref.extractall(unzip_path)
+  File "C:\Users\jn_ay\anaconda3\envs\mlproj\Lib\zipfile\__init__.py", line 1744, in extractall
+    self._extract_member(zipinfo, path, pwd)
+  File "C:\Users\jn_ay\anaconda3\envs\mlproj\Lib\zipfile\__init__.py", line 1801, in _extract_member
+    open(targetpath, "wb") as target:
+    ^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: 'artifacts\\data_ingestion\\WineQT.csv'
+[2024-09-02 16:00:57,517: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-09-02 16:00:57,519: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-09-02 16:00:57,520: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-09-02 16:00:57,521: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-09-02 16:00:57,522: INFO: common: created directory at: artifacts]
+[2024-09-02 16:00:57,522: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-09-02 16:00:57,523: INFO: data_ingestion: File already exists of size: ~ 21 KB]
+[2024-09-02 16:00:57,526: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-09-02 16:00:57,526: INFO: main: >>>>>> stage Data Validation stage started <<<<<<]
+[2024-09-02 16:00:57,528: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-09-02 16:00:57,530: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-09-02 16:00:57,531: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-09-02 16:00:57,532: INFO: common: created directory at: artifacts]
+[2024-09-02 16:00:57,532: INFO: common: created directory at: artifacts/data_validation]
+[2024-09-02 16:00:57,558: INFO: main: >>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x]
+[2024-09-02 16:01:49,707: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-09-02 16:01:49,709: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-09-02 16:01:49,709: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-09-02 16:01:49,711: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-09-02 16:01:49,711: INFO: common: created directory at: artifacts]
+[2024-09-02 16:01:49,711: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-09-02 16:01:49,712: INFO: data_ingestion: File already exists of size: ~ 21 KB]
+[2024-09-02 16:01:49,714: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-09-02 16:01:49,715: INFO: main: >>>>>> stage Data Validation stage started <<<<<<]
+[2024-09-02 16:01:49,717: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-09-02 16:01:49,718: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-09-02 16:01:49,720: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-09-02 16:01:49,720: INFO: common: created directory at: artifacts]
+[2024-09-02 16:01:49,722: INFO: common: created directory at: artifacts/data_validation]
+[2024-09-02 16:01:49,735: INFO: main: >>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x]
+[2024-09-02 16:01:49,735: INFO: main: >>>>>> stage Data Transformation stage started <<<<<<]
+[2024-09-02 16:01:49,740: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-09-02 16:01:49,741: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-09-02 16:01:49,742: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-09-02 16:01:49,743: INFO: common: created directory at: artifacts]
+[2024-09-02 16:01:49,746: INFO: common: created directory at: artifacts/data_transformation]
+[2024-09-02 16:01:49,767: INFO: data_transformation: Splited data into training and test sets]
+[2024-09-02 16:01:49,767: INFO: data_transformation: (857, 13)]
+[2024-09-02 16:01:49,767: INFO: data_transformation: (286, 13)]
+[2024-09-02 16:01:49,769: INFO: main: >>>>>> stage Data Transformation stage completed <<<<<<
+
+x==========x]
+[2024-09-02 16:02:37,531: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-09-02 16:02:37,533: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-09-02 16:02:37,534: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-09-02 16:02:37,536: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-09-02 16:02:37,536: INFO: common: created directory at: artifacts]
+[2024-09-02 16:02:37,536: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-09-02 16:02:37,537: INFO: data_ingestion: File already exists of size: ~ 21 KB]
+[2024-09-02 16:02:37,539: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-09-02 16:02:37,539: INFO: main: >>>>>> stage Data Validation stage started <<<<<<]
+[2024-09-02 16:02:37,540: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-09-02 16:02:37,541: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-09-02 16:02:37,542: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-09-02 16:02:37,543: INFO: common: created directory at: artifacts]
+[2024-09-02 16:02:37,543: INFO: common: created directory at: artifacts/data_validation]
+[2024-09-02 16:02:37,571: INFO: main: >>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x]
+[2024-09-02 16:02:37,572: INFO: main: >>>>>> stage Data Transformation stage started <<<<<<]
+[2024-09-02 16:02:37,575: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-09-02 16:02:37,576: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-09-02 16:02:37,578: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-09-02 16:02:37,578: INFO: common: created directory at: artifacts]
+[2024-09-02 16:02:37,579: INFO: common: created directory at: artifacts/data_transformation]
+[2024-09-02 16:02:37,592: INFO: data_transformation: Splited data into training and test sets]
+[2024-09-02 16:02:37,593: INFO: data_transformation: (857, 13)]
+[2024-09-02 16:02:37,593: INFO: data_transformation: (286, 13)]
+[2024-09-02 16:02:37,593: INFO: main: >>>>>> stage Data Transformation stage completed <<<<<<
+
+x==========x]
+[2024-09-02 16:02:37,594: INFO: main: >>>>>> stage Model Trainer stage started <<<<<<]
+[2024-09-02 16:02:37,596: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-09-02 16:02:37,596: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-09-02 16:02:37,597: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-09-02 16:02:37,598: INFO: common: created directory at: artifacts]
+[2024-09-02 16:02:37,598: INFO: common: created directory at: artifacts/model_trainer]
+[2024-09-02 16:02:37,645: INFO: main: >>>>>> stage Model Trainer stage completed <<<<<<
+
+x==========x]
